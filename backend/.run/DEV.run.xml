@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DEV" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.example.bookstore.BookstoreApplication" />
+    <module name="bookstore-backend" />
+    <option name="VM_PARAMETERS" value="-XX:+UseG1GC -Xms1024m -Xmx1024m -Dspring.config.location=config/dev/ -Dspring.config.name=application" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

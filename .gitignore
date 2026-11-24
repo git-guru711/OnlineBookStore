@@ -1,0 +1,26 @@
+# Backend
+backend/target/
+!backend/.mvn/wrapper/maven-wrapper.jar
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+frontend/test-results/
+frontend/playwright-report/
+frontend/blob-report/
+frontend/*.tsbuildinfo
+*.local
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Stray tool caches at the project root (e.g. from running npx in the wrong folder)
+/node_modules/
+
+# Local only (kept on this machine, not in the repository)
+/.claude/
+/docs/
